@@ -25,7 +25,7 @@ mongoose
      console.log(err.message);
    });
 app.use(cors({
-  origin: ["https://radiant-cuchufli-0d3737.netlify.app/"],
+  origin: ["https://radiant-cuchufli-0d3737.netlify.app"],
   credentials: true
 }));
 app.use(cookieParser());
